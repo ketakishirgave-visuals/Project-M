@@ -1,0 +1,212 @@
+[
+	{
+		"final_cluster_id" : 0,
+		"cashback_efficiency_band" : 1,
+		"avg_incentive_spend" : 58.79,
+		"purchase_frequency_rate" : 1.0000,
+		"frequency_marginal_difference" : 1.0000
+	},
+	{
+		"final_cluster_id" : 0,
+		"cashback_efficiency_band" : 2,
+		"avg_incentive_spend" : 110.02,
+		"purchase_frequency_rate" : 1.0000,
+		"frequency_marginal_difference" : 0.0000
+	},
+	{
+		"final_cluster_id" : 0,
+		"cashback_efficiency_band" : 3,
+		"avg_incentive_spend" : 154.5,
+		"purchase_frequency_rate" : 1.0000,
+		"frequency_marginal_difference" : 0.0000
+	},
+	{
+		"final_cluster_id" : 0,
+		"cashback_efficiency_band" : 4,
+		"avg_incentive_spend" : 194.41,
+		"purchase_frequency_rate" : 1.0000,
+		"frequency_marginal_difference" : 0.0000
+	},
+	{
+		"final_cluster_id" : 0,
+		"cashback_efficiency_band" : 5,
+		"avg_incentive_spend" : 200,
+		"purchase_frequency_rate" : 1.0000,
+		"frequency_marginal_difference" : 0.0000
+	},
+	{
+		"final_cluster_id" : 1,
+		"cashback_efficiency_band" : 1,
+		"avg_incentive_spend" : 26.44,
+		"purchase_frequency_rate" : 1.0000,
+		"frequency_marginal_difference" : 1.0000
+	},
+	{
+		"final_cluster_id" : 1,
+		"cashback_efficiency_band" : 2,
+		"avg_incentive_spend" : 48.74,
+		"purchase_frequency_rate" : 1.0000,
+		"frequency_marginal_difference" : 0.0000
+	},
+	{
+		"final_cluster_id" : 1,
+		"cashback_efficiency_band" : 3,
+		"avg_incentive_spend" : 68.12,
+		"purchase_frequency_rate" : 1.0000,
+		"frequency_marginal_difference" : 0.0000
+	},
+	{
+		"final_cluster_id" : 1,
+		"cashback_efficiency_band" : 4,
+		"avg_incentive_spend" : 92.34,
+		"purchase_frequency_rate" : 1.0000,
+		"frequency_marginal_difference" : 0.0000
+	},
+	{
+		"final_cluster_id" : 1,
+		"cashback_efficiency_band" : 5,
+		"avg_incentive_spend" : 142.43,
+		"purchase_frequency_rate" : 1.0000,
+		"frequency_marginal_difference" : 0.0000
+	},
+	{
+		"final_cluster_id" : 2,
+		"cashback_efficiency_band" : 1,
+		"avg_incentive_spend" : 35.12,
+		"purchase_frequency_rate" : 1.0000,
+		"frequency_marginal_difference" : 1.0000
+	},
+	{
+		"final_cluster_id" : 2,
+		"cashback_efficiency_band" : 2,
+		"avg_incentive_spend" : 63.45,
+		"purchase_frequency_rate" : 1.0000,
+		"frequency_marginal_difference" : 0.0000
+	},
+	{
+		"final_cluster_id" : 2,
+		"cashback_efficiency_band" : 3,
+		"avg_incentive_spend" : 89.08,
+		"purchase_frequency_rate" : 1.0000,
+		"frequency_marginal_difference" : 0.0000
+	},
+	{
+		"final_cluster_id" : 2,
+		"cashback_efficiency_band" : 4,
+		"avg_incentive_spend" : 118.53,
+		"purchase_frequency_rate" : 1.0000,
+		"frequency_marginal_difference" : 0.0000
+	},
+	{
+		"final_cluster_id" : 2,
+		"cashback_efficiency_band" : 5,
+		"avg_incentive_spend" : 171.3,
+		"purchase_frequency_rate" : 1.0000,
+		"frequency_marginal_difference" : 0.0000
+	},
+	{
+		"final_cluster_id" : 3,
+		"cashback_efficiency_band" : 1,
+		"avg_incentive_spend" : 61.02,
+		"purchase_frequency_rate" : 1.0000,
+		"frequency_marginal_difference" : 1.0000
+	},
+	{
+		"final_cluster_id" : 3,
+		"cashback_efficiency_band" : 2,
+		"avg_incentive_spend" : 110.33,
+		"purchase_frequency_rate" : 1.0000,
+		"frequency_marginal_difference" : 0.0000
+	},
+	{
+		"final_cluster_id" : 3,
+		"cashback_efficiency_band" : 3,
+		"avg_incentive_spend" : 152.87,
+		"purchase_frequency_rate" : 1.0000,
+		"frequency_marginal_difference" : 0.0000
+	},
+	{
+		"final_cluster_id" : 3,
+		"cashback_efficiency_band" : 4,
+		"avg_incentive_spend" : 192.4,
+		"purchase_frequency_rate" : 1.0000,
+		"frequency_marginal_difference" : 0.0000
+	},
+	{
+		"final_cluster_id" : 3,
+		"cashback_efficiency_band" : 5,
+		"avg_incentive_spend" : 200,
+		"purchase_frequency_rate" : 1.0000,
+		"frequency_marginal_difference" : 0.0000
+	},
+	{
+		"final_cluster_id" : 4,
+		"cashback_efficiency_band" : 1,
+		"avg_incentive_spend" : 105.96,
+		"purchase_frequency_rate" : 1.0000,
+		"frequency_marginal_difference" : 1.0000
+	},
+	{
+		"final_cluster_id" : 4,
+		"cashback_efficiency_band" : 2,
+		"avg_incentive_spend" : 158.8,
+		"purchase_frequency_rate" : 1.0000,
+		"frequency_marginal_difference" : 0.0000
+	},
+	{
+		"final_cluster_id" : 4,
+		"cashback_efficiency_band" : 3,
+		"avg_incentive_spend" : 193.03,
+		"purchase_frequency_rate" : 1.0000,
+		"frequency_marginal_difference" : 0.0000
+	},
+	{
+		"final_cluster_id" : 4,
+		"cashback_efficiency_band" : 4,
+		"avg_incentive_spend" : 200,
+		"purchase_frequency_rate" : 1.0000,
+		"frequency_marginal_difference" : 0.0000
+	},
+	{
+		"final_cluster_id" : 4,
+		"cashback_efficiency_band" : 5,
+		"avg_incentive_spend" : 200,
+		"purchase_frequency_rate" : 1.0000,
+		"frequency_marginal_difference" : 0.0000
+	},
+	{
+		"final_cluster_id" : 5,
+		"cashback_efficiency_band" : 1,
+		"avg_incentive_spend" : 8.86,
+		"purchase_frequency_rate" : 1.0000,
+		"frequency_marginal_difference" : 1.0000
+	},
+	{
+		"final_cluster_id" : 5,
+		"cashback_efficiency_band" : 2,
+		"avg_incentive_spend" : 38.64,
+		"purchase_frequency_rate" : 1.0000,
+		"frequency_marginal_difference" : 0.0000
+	},
+	{
+		"final_cluster_id" : 5,
+		"cashback_efficiency_band" : 3,
+		"avg_incentive_spend" : 59.5,
+		"purchase_frequency_rate" : 1.0000,
+		"frequency_marginal_difference" : 0.0000
+	},
+	{
+		"final_cluster_id" : 5,
+		"cashback_efficiency_band" : 4,
+		"avg_incentive_spend" : 86.14,
+		"purchase_frequency_rate" : 1.0000,
+		"frequency_marginal_difference" : 0.0000
+	},
+	{
+		"final_cluster_id" : 5,
+		"cashback_efficiency_band" : 5,
+		"avg_incentive_spend" : 126.79,
+		"purchase_frequency_rate" : 1.0000,
+		"frequency_marginal_difference" : 0.0000
+	}
+]

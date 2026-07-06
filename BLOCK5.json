@@ -1,0 +1,128 @@
+[
+	{
+		"final_cluster_id" : 0,
+		"purchase_timing_window" : "Early Window (Days 1-3)",
+		"total_orders" : 179,
+		"wallet_at_checkout_trigger" : 106.58100558659218,
+		"average_order_value" : 686.5903351955302
+	},
+	{
+		"final_cluster_id" : 0,
+		"purchase_timing_window" : "Expiry Pressure (Days 5-7)",
+		"total_orders" : 1504,
+		"wallet_at_checkout_trigger" : 150.50132978723406,
+		"average_order_value" : 726.237200797872
+	},
+	{
+		"final_cluster_id" : 0,
+		"purchase_timing_window" : "Mid-lifecycle (Day 4)",
+		"total_orders" : 253,
+		"wallet_at_checkout_trigger" : 127.99209486166008,
+		"average_order_value" : 711.6533992094867
+	},
+	{
+		"final_cluster_id" : 1,
+		"purchase_timing_window" : "Early Window (Days 1-3)",
+		"total_orders" : 4238,
+		"wallet_at_checkout_trigger" : 71.40821142048136,
+		"average_order_value" : 911.6243039169403
+	},
+	{
+		"final_cluster_id" : 1,
+		"purchase_timing_window" : "Expiry Pressure (Days 5-7)",
+		"total_orders" : 469,
+		"wallet_at_checkout_trigger" : 102.28571428571429,
+		"average_order_value" : 690.1030277185506
+	},
+	{
+		"final_cluster_id" : 1,
+		"purchase_timing_window" : "Mid-lifecycle (Day 4)",
+		"total_orders" : 213,
+		"wallet_at_checkout_trigger" : 100.53051643192488,
+		"average_order_value" : 711.7235211267606
+	},
+	{
+		"final_cluster_id" : 2,
+		"purchase_timing_window" : "Early Window (Days 1-3)",
+		"total_orders" : 1465,
+		"wallet_at_checkout_trigger" : 83.32354948805461,
+		"average_order_value" : 825.0957474402738
+	},
+	{
+		"final_cluster_id" : 2,
+		"purchase_timing_window" : "Expiry Pressure (Days 5-7)",
+		"total_orders" : 1209,
+		"wallet_at_checkout_trigger" : 106.55086848635236,
+		"average_order_value" : 675.8818775847802
+	},
+	{
+		"final_cluster_id" : 2,
+		"purchase_timing_window" : "Mid-lifecycle (Day 4)",
+		"total_orders" : 576,
+		"wallet_at_checkout_trigger" : 103.28472222222223,
+		"average_order_value" : 696.7450694444435
+	},
+	{
+		"final_cluster_id" : 3,
+		"purchase_timing_window" : "Early Window (Days 1-3)",
+		"total_orders" : 220,
+		"wallet_at_checkout_trigger" : 113.39545454545454,
+		"average_order_value" : 667.2430454545456
+	},
+	{
+		"final_cluster_id" : 3,
+		"purchase_timing_window" : "Expiry Pressure (Days 5-7)",
+		"total_orders" : 1859,
+		"wallet_at_checkout_trigger" : 150.080688542227,
+		"average_order_value" : 729.7932651963422
+	},
+	{
+		"final_cluster_id" : 3,
+		"purchase_timing_window" : "Mid-lifecycle (Day 4)",
+		"total_orders" : 312,
+		"wallet_at_checkout_trigger" : 124.21794871794872,
+		"average_order_value" : 706.7264743589743
+	},
+	{
+		"final_cluster_id" : 4,
+		"purchase_timing_window" : "Early Window (Days 1-3)",
+		"total_orders" : 4,
+		"wallet_at_checkout_trigger" : 131.25,
+		"average_order_value" : 610.6125
+	},
+	{
+		"final_cluster_id" : 4,
+		"purchase_timing_window" : "Expiry Pressure (Days 5-7)",
+		"total_orders" : 2005,
+		"wallet_at_checkout_trigger" : 171.6074812967581,
+		"average_order_value" : 754.2112967581041
+	},
+	{
+		"final_cluster_id" : 4,
+		"purchase_timing_window" : "Mid-lifecycle (Day 4)",
+		"total_orders" : 7,
+		"wallet_at_checkout_trigger" : 171,
+		"average_order_value" : 756.6742857142857
+	},
+	{
+		"final_cluster_id" : 5,
+		"purchase_timing_window" : "Early Window (Days 1-3)",
+		"total_orders" : 65,
+		"wallet_at_checkout_trigger" : 63.6,
+		"average_order_value" : 915.6746153846155
+	},
+	{
+		"final_cluster_id" : 5,
+		"purchase_timing_window" : "Expiry Pressure (Days 5-7)",
+		"total_orders" : 1,
+		"wallet_at_checkout_trigger" : 37,
+		"average_order_value" : 858.28
+	},
+	{
+		"final_cluster_id" : 5,
+		"purchase_timing_window" : "Mid-lifecycle (Day 4)",
+		"total_orders" : 4,
+		"wallet_at_checkout_trigger" : 77,
+		"average_order_value" : 735.3375
+	}
+]

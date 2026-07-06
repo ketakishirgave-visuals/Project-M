@@ -1,0 +1,26 @@
+[
+	{
+		"final_cluster_id" : 0,
+		"transaction_level_pearson_r" : 0.0875
+	},
+	{
+		"final_cluster_id" : 1,
+		"transaction_level_pearson_r" : -0.0921
+	},
+	{
+		"final_cluster_id" : 2,
+		"transaction_level_pearson_r" : -0.177
+	},
+	{
+		"final_cluster_id" : 3,
+		"transaction_level_pearson_r" : 0.1292
+	},
+	{
+		"final_cluster_id" : 4,
+		"transaction_level_pearson_r" : -0.0031
+	},
+	{
+		"final_cluster_id" : 5,
+		"transaction_level_pearson_r" : 0.0401
+	}
+]

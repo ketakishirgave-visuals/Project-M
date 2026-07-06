@@ -1,0 +1,62 @@
+[
+	{
+		"final_cluster_id" : 4,
+		"total_cards_allocated" : 14084,
+		"card_rejection_rate_pct" : 0.00,
+		"deliberate_expiry_rate_pct" : 12.82,
+		"average_card_face_value" : 29.824410678784435,
+		"value_lost_never_scratched" : 0,
+		"value_lost_deliberate_expiry" : 14953,
+		"total_value_lost_to_optimization" : 14953
+	},
+	{
+		"final_cluster_id" : 2,
+		"total_cards_allocated" : 18114,
+		"card_rejection_rate_pct" : 0.00,
+		"deliberate_expiry_rate_pct" : 0.00,
+		"average_card_face_value" : 22.703489014022303,
+		"value_lost_never_scratched" : 0,
+		"value_lost_deliberate_expiry" : 0,
+		"total_value_lost_to_optimization" : 0
+	},
+	{
+		"final_cluster_id" : 0,
+		"total_cards_allocated" : 11490,
+		"card_rejection_rate_pct" : 0.00,
+		"deliberate_expiry_rate_pct" : 9.02,
+		"average_card_face_value" : 28.021148825065275,
+		"value_lost_never_scratched" : 0,
+		"value_lost_deliberate_expiry" : 9052,
+		"total_value_lost_to_optimization" : 9052
+	},
+	{
+		"final_cluster_id" : 3,
+		"total_cards_allocated" : 16744,
+		"card_rejection_rate_pct" : 0.00,
+		"deliberate_expiry_rate_pct" : 8.40,
+		"average_card_face_value" : 26.977663640707117,
+		"value_lost_never_scratched" : 0,
+		"value_lost_deliberate_expiry" : 11861,
+		"total_value_lost_to_optimization" : 11861
+	},
+	{
+		"final_cluster_id" : 1,
+		"total_cards_allocated" : 20136,
+		"card_rejection_rate_pct" : 0.00,
+		"deliberate_expiry_rate_pct" : 0.00,
+		"average_card_face_value" : 18.606525625744933,
+		"value_lost_never_scratched" : 0,
+		"value_lost_deliberate_expiry" : 0,
+		"total_value_lost_to_optimization" : 0
+	},
+	{
+		"final_cluster_id" : 5,
+		"total_cards_allocated" : 280,
+		"card_rejection_rate_pct" : 0.00,
+		"deliberate_expiry_rate_pct" : 0.00,
+		"average_card_face_value" : 17.317857142857143,
+		"value_lost_never_scratched" : 0,
+		"value_lost_deliberate_expiry" : 0,
+		"total_value_lost_to_optimization" : 0
+	}
+]

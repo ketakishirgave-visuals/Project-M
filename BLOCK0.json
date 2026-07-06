@@ -1,0 +1,232 @@
+[
+	{
+		"final_cluster_id" : 0,
+		"city_tier" : ,
+		"total_cashback_issued" : 14248,
+		"unscratched_cards_leakage" : 0,
+		"deliberate_expiry_leakage" : 460,
+		"total_observed_leakage" : 460,
+		"leakage_rate_pct" : 3.23,
+		"primary_leakage_source" : "Deliberate Expiry"
+	},
+	{
+		"final_cluster_id" : 0,
+		"city_tier" : T1,
+		"total_cashback_issued" : 110494,
+		"unscratched_cards_leakage" : 0,
+		"deliberate_expiry_leakage" : 3189,
+		"total_observed_leakage" : 3189,
+		"leakage_rate_pct" : 2.89,
+		"primary_leakage_source" : "Deliberate Expiry"
+	},
+	{
+		"final_cluster_id" : 0,
+		"city_tier" : T2,
+		"total_cashback_issued" : 125694,
+		"unscratched_cards_leakage" : 0,
+		"deliberate_expiry_leakage" : 3485,
+		"total_observed_leakage" : 3485,
+		"leakage_rate_pct" : 2.77,
+		"primary_leakage_source" : "Deliberate Expiry"
+	},
+	{
+		"final_cluster_id" : 0,
+		"city_tier" : T3,
+		"total_cashback_issued" : 71527,
+		"unscratched_cards_leakage" : 0,
+		"deliberate_expiry_leakage" : 1918,
+		"total_observed_leakage" : 1918,
+		"leakage_rate_pct" : 2.68,
+		"primary_leakage_source" : "Deliberate Expiry"
+	},
+	{
+		"final_cluster_id" : 1,
+		"city_tier" : ,
+		"total_cashback_issued" : 16767,
+		"unscratched_cards_leakage" : 0,
+		"deliberate_expiry_leakage" : 0,
+		"total_observed_leakage" : 0,
+		"leakage_rate_pct" : 0,
+		"primary_leakage_source" : "Balanced / No Leakage"
+	},
+	{
+		"final_cluster_id" : 1,
+		"city_tier" : T1,
+		"total_cashback_issued" : 124770,
+		"unscratched_cards_leakage" : 0,
+		"deliberate_expiry_leakage" : 0,
+		"total_observed_leakage" : 0,
+		"leakage_rate_pct" : 0,
+		"primary_leakage_source" : "Balanced / No Leakage"
+	},
+	{
+		"final_cluster_id" : 1,
+		"city_tier" : T2,
+		"total_cashback_issued" : 145027,
+		"unscratched_cards_leakage" : 0,
+		"deliberate_expiry_leakage" : 0,
+		"total_observed_leakage" : 0,
+		"leakage_rate_pct" : 0,
+		"primary_leakage_source" : "Balanced / No Leakage"
+	},
+	{
+		"final_cluster_id" : 1,
+		"city_tier" : T3,
+		"total_cashback_issued" : 88097,
+		"unscratched_cards_leakage" : 0,
+		"deliberate_expiry_leakage" : 0,
+		"total_observed_leakage" : 0,
+		"leakage_rate_pct" : 0,
+		"primary_leakage_source" : "Balanced / No Leakage"
+	},
+	{
+		"final_cluster_id" : 2,
+		"city_tier" : ,
+		"total_cashback_issued" : 22117,
+		"unscratched_cards_leakage" : 0,
+		"deliberate_expiry_leakage" : 0,
+		"total_observed_leakage" : 0,
+		"leakage_rate_pct" : 0,
+		"primary_leakage_source" : "Balanced / No Leakage"
+	},
+	{
+		"final_cluster_id" : 2,
+		"city_tier" : T1,
+		"total_cashback_issued" : 140158,
+		"unscratched_cards_leakage" : 0,
+		"deliberate_expiry_leakage" : 0,
+		"total_observed_leakage" : 0,
+		"leakage_rate_pct" : 0,
+		"primary_leakage_source" : "Balanced / No Leakage"
+	},
+	{
+		"final_cluster_id" : 2,
+		"city_tier" : T2,
+		"total_cashback_issued" : 157398,
+		"unscratched_cards_leakage" : 0,
+		"deliberate_expiry_leakage" : 0,
+		"total_observed_leakage" : 0,
+		"leakage_rate_pct" : 0,
+		"primary_leakage_source" : "Balanced / No Leakage"
+	},
+	{
+		"final_cluster_id" : 2,
+		"city_tier" : T3,
+		"total_cashback_issued" : 91578,
+		"unscratched_cards_leakage" : 0,
+		"deliberate_expiry_leakage" : 0,
+		"total_observed_leakage" : 0,
+		"leakage_rate_pct" : 0,
+		"primary_leakage_source" : "Balanced / No Leakage"
+	},
+	{
+		"final_cluster_id" : 3,
+		"city_tier" : ,
+		"total_cashback_issued" : 18372,
+		"unscratched_cards_leakage" : 0,
+		"deliberate_expiry_leakage" : 495,
+		"total_observed_leakage" : 495,
+		"leakage_rate_pct" : 2.69,
+		"primary_leakage_source" : "Deliberate Expiry"
+	},
+	{
+		"final_cluster_id" : 3,
+		"city_tier" : T1,
+		"total_cashback_issued" : 147940,
+		"unscratched_cards_leakage" : 0,
+		"deliberate_expiry_leakage" : 4156,
+		"total_observed_leakage" : 4156,
+		"leakage_rate_pct" : 2.81,
+		"primary_leakage_source" : "Deliberate Expiry"
+	},
+	{
+		"final_cluster_id" : 3,
+		"city_tier" : T2,
+		"total_cashback_issued" : 194225,
+		"unscratched_cards_leakage" : 0,
+		"deliberate_expiry_leakage" : 4808,
+		"total_observed_leakage" : 4808,
+		"leakage_rate_pct" : 2.48,
+		"primary_leakage_source" : "Deliberate Expiry"
+	},
+	{
+		"final_cluster_id" : 3,
+		"city_tier" : T3,
+		"total_cashback_issued" : 91177,
+		"unscratched_cards_leakage" : 0,
+		"deliberate_expiry_leakage" : 2402,
+		"total_observed_leakage" : 2402,
+		"leakage_rate_pct" : 2.63,
+		"primary_leakage_source" : "Deliberate Expiry"
+	},
+	{
+		"final_cluster_id" : 4,
+		"city_tier" : ,
+		"total_cashback_issued" : 24608,
+		"unscratched_cards_leakage" : 0,
+		"deliberate_expiry_leakage" : 873,
+		"total_observed_leakage" : 873,
+		"leakage_rate_pct" : 3.55,
+		"primary_leakage_source" : "Deliberate Expiry"
+	},
+	{
+		"final_cluster_id" : 4,
+		"city_tier" : T1,
+		"total_cashback_issued" : 140804,
+		"unscratched_cards_leakage" : 0,
+		"deliberate_expiry_leakage" : 4890,
+		"total_observed_leakage" : 4890,
+		"leakage_rate_pct" : 3.47,
+		"primary_leakage_source" : "Deliberate Expiry"
+	},
+	{
+		"final_cluster_id" : 4,
+		"city_tier" : T2,
+		"total_cashback_issued" : 148876,
+		"unscratched_cards_leakage" : 0,
+		"deliberate_expiry_leakage" : 5447,
+		"total_observed_leakage" : 5447,
+		"leakage_rate_pct" : 3.66,
+		"primary_leakage_source" : "Deliberate Expiry"
+	},
+	{
+		"final_cluster_id" : 4,
+		"city_tier" : T3,
+		"total_cashback_issued" : 105759,
+		"unscratched_cards_leakage" : 0,
+		"deliberate_expiry_leakage" : 3743,
+		"total_observed_leakage" : 3743,
+		"leakage_rate_pct" : 3.54,
+		"primary_leakage_source" : "Deliberate Expiry"
+	},
+	{
+		"final_cluster_id" : 5,
+		"city_tier" : ,
+		"total_cashback_issued" : 570,
+		"unscratched_cards_leakage" : 0,
+		"deliberate_expiry_leakage" : 0,
+		"total_observed_leakage" : 0,
+		"leakage_rate_pct" : 0,
+		"primary_leakage_source" : "Balanced / No Leakage"
+	},
+	{
+		"final_cluster_id" : 5,
+		"city_tier" : T1,
+		"total_cashback_issued" : 3236,
+		"unscratched_cards_leakage" : 0,
+		"deliberate_expiry_leakage" : 0,
+		"total_observed_leakage" : 0,
+		"leakage_rate_pct" : 0,
+		"primary_leakage_source" : "Balanced / No Leakage"
+	},
+	{
+		"final_cluster_id" : 5,
+		"city_tier" : T3,
+		"total_cashback_issued" : 1043,
+		"unscratched_cards_leakage" : 0,
+		"deliberate_expiry_leakage" : 0,
+		"total_observed_leakage" : 0,
+		"leakage_rate_pct" : 0,
+		"primary_leakage_source" : "Balanced / No Leakage"
+	}
+]

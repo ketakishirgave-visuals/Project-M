@@ -1,0 +1,18 @@
+[
+	{
+		"concentration_tier" : "Top 10% Users",
+		"total_users" : 200,
+		"total_cashback_consumed" : 285410,
+		"total_profit_yield" : 915201.6500000003,
+		"cashback_concentration_pct" : 17.27,
+		"profit_concentration_pct" : 9.32
+	},
+	{
+		"concentration_tier" : "Remaining 90% Users",
+		"total_users" : 1800,
+		"total_cashback_consumed" : 1367659,
+		"total_profit_yield" : 8900118.039999988,
+		"cashback_concentration_pct" : 82.73,
+		"profit_concentration_pct" : 90.68
+	}
+]

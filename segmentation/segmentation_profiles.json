@@ -1,0 +1,111 @@
+{
+  "0": {
+    "population_n": 1273,
+    "population_pct": 0.6387,
+    "feature_stats": {
+      "j_curve_std": {
+        "mean": 0.410863,
+        "median": 0.301781,
+        "std": 0.664549,
+        "min": -0.857839,
+        "max": 3.615524
+      },
+      "scratch_velocity": {
+        "mean": -0.087254,
+        "median": -0.140351,
+        "std": 0.208149,
+        "min": -0.667763,
+        "max": 1.119711
+      },
+      "time_to_expiry_at_conversion": {
+        "mean": -0.247545,
+        "median": -0.375,
+        "std": 0.315327,
+        "min": -0.625,
+        "max": 0.875
+      },
+      "accumulation_slope": {
+        "mean": 0.037713,
+        "median": 0.03991,
+        "std": 0.825919,
+        "min": -2.108708,
+        "max": 2.374541
+      }
+    },
+    "z_score_signatures": {
+      "j_curve_std": 0.4491,
+      "scratch_velocity": -0.6545,
+      "time_to_expiry_at_conversion": -0.6434,
+      "accumulation_slope": 0.0254
+    },
+    "ground_truth_alignment": {
+      "dominant_archetype": "accidental_saver",
+      "purity": 0.46,
+      "full_distribution": {
+        "accidental_saver": 0.46,
+        "hunter": 0.43,
+        "sure_thing": 0.111
+      }
+    },
+    "business_validation": {
+      "cashback_intensity": 0.6367,
+      "full_price_rate": 0.045,
+      "late_session_intensity": 0.5558,
+      "accumulation_slope": 0.0246
+    }
+  },
+  "1": {
+    "population_n": 720,
+    "population_pct": 0.3613,
+    "feature_stats": {
+      "j_curve_std": {
+        "mean": -0.508139,
+        "median": -0.59668,
+        "std": 0.438895,
+        "min": -1.377891,
+        "max": 1.324683
+      },
+      "scratch_velocity": {
+        "mean": 1.056286,
+        "median": 1.119711,
+        "std": 0.436641,
+        "min": -0.270175,
+        "max": 2.274386
+      },
+      "time_to_expiry_at_conversion": {
+        "mean": 0.726736,
+        "median": 0.875,
+        "std": 0.214897,
+        "min": -0.125,
+        "max": 0.875
+      },
+      "accumulation_slope": {
+        "mean": -0.016066,
+        "median": -0.024226,
+        "std": 0.643449,
+        "min": -1.984657,
+        "max": 1.575679
+      }
+    },
+    "z_score_signatures": {
+      "j_curve_std": -0.794,
+      "scratch_velocity": 1.1572,
+      "time_to_expiry_at_conversion": 1.1375,
+      "accumulation_slope": -0.0449
+    },
+    "ground_truth_alignment": {
+      "dominant_archetype": "sure_thing",
+      "purity": 0.981,
+      "full_distribution": {
+        "sure_thing": 0.981,
+        "accidental_saver": 0.019
+      }
+    },
+    "business_validation": {
+      "cashback_intensity": 1.1588,
+      "full_price_rate": 0.0638,
+      "late_session_intensity": 1.0599,
+      "accumulation_slope": 0.0467
+    }
+  }
+}

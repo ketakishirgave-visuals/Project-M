@@ -1,0 +1,3 @@
+test,median,min,pass,p5
+multi_seed_ari,1.0,1.0,True,
+bootstrap_ari,0.9937,,True,0.9823

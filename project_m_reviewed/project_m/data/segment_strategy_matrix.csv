@@ -1,0 +1,7 @@
+segment_id,cohort_persona_name,mathematical_quadrant,allocated_strategic_action,recommended_budget_trajectory,observed_cashback_response_score,margin_efficiency_ratio
+0,Expiry-Driven Converters,Non-responsive + Low Profit (< 50th Percentile MER),PHASE DOWN & MONITOR (Incentive trap; mitigate burn metrics),REDUCE BUDGET INCENTIVES,0.1422,1.5126
+1,Organic High-Intent Buyers,Non-responsive + High Profit (>= 50th Percentile MER),MAINTAIN (Organic spend baseline - Protect margin contributions),MAINTAIN / CAP BUDGET,-0.3867,4.672
+2,Wallet Accumulators,Verified True Causation + Median-Bound Profitability,INVEST AGGRESSIVELY (High utilization matches stable balance flow velocity),INCREASE BUDGET,0.6549,2.7967
+3,Passive Expiry Converters,Negative Responsiveness Trap (< 50th Percentile MER Hurdle),CONTROLLED BUDGET REDUCTION & MANDATORY HOLDOUT TESTING,REDUCE BUDGET INCENTIVES,-0.4869,1.5342
+4,Aggressive Expiry Converters,Non-responsive + Low Profit (< 50th Percentile MER),PHASE DOWN & MONITOR (Incentive trap; mitigate burn metrics),REDUCE BUDGET INCENTIVES,-0.0809,1.2202
+5,Premium Full-Price Loyalists,Statistical Outlier Whale Pool,EXCLUDE FROM ACTIVE INCENTIVE RUNS (Pure Organic Tracking),ZERO CAMPAIGN EXPOSURE,-0.2289,6.5697

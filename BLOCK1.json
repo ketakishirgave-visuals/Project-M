@@ -1,0 +1,209 @@
+[
+	{
+		"final_cluster_id" : 1,
+		"city_tier" : "T2",
+		"customer_count" : 234,
+		"total_cashback_received" : 143979,
+		"gross_revenue_generated" : 1628817.3799999985,
+		"total_profit_generated" : 1484838.3799999983,
+		"cluster_distribution_rank" : 1
+	},
+	{
+		"final_cluster_id" : 1,
+		"city_tier" : "T1",
+		"customer_count" : 204,
+		"total_cashback_received" : 123663,
+		"gross_revenue_generated" : 1446731.520000002,
+		"total_profit_generated" : 1323068.5200000003,
+		"cluster_distribution_rank" : 1
+	},
+	{
+		"final_cluster_id" : 1,
+		"city_tier" : "T3",
+		"customer_count" : 149,
+		"total_cashback_received" : 87611,
+		"gross_revenue_generated" : 1065480.22,
+		"total_profit_generated" : 977869.2199999996,
+		"cluster_distribution_rank" : 1
+	},
+	{
+		"final_cluster_id" : 2,
+		"city_tier" : "T2",
+		"customer_count" : 198,
+		"total_cashback_received" : 117766,
+		"gross_revenue_generated" : 933776.3499999999,
+		"total_profit_generated" : 816010.3499999999,
+		"cluster_distribution_rank" : 2
+	},
+	{
+		"final_cluster_id" : 2,
+		"city_tier" : "T1",
+		"customer_count" : 179,
+		"total_cashback_received" : 106511,
+		"gross_revenue_generated" : 845081.5000000003,
+		"total_profit_generated" : 738570.5000000002,
+		"cluster_distribution_rank" : 2
+	},
+	{
+		"final_cluster_id" : 3,
+		"city_tier" : "T2",
+		"customer_count" : 158,
+		"total_cashback_received" : 147371,
+		"gross_revenue_generated" : 737382.049999999,
+		"total_profit_generated" : 590011.0499999996,
+		"cluster_distribution_rank" : 3
+	},
+	{
+		"final_cluster_id" : 2,
+		"city_tier" : "T3",
+		"customer_count" : 112,
+		"total_cashback_received" : 69494,
+		"gross_revenue_generated" : 525609.7900000005,
+		"total_profit_generated" : 456115.7900000005,
+		"cluster_distribution_rank" : 2
+	},
+	{
+		"final_cluster_id" : 3,
+		"city_tier" : "T1",
+		"customer_count" : 117,
+		"total_cashback_received" : 113726,
+		"gross_revenue_generated" : 568756.8800000001,
+		"total_profit_generated" : 455030.88,
+		"cluster_distribution_rank" : 3
+	},
+	{
+		"final_cluster_id" : 0,
+		"city_tier" : "T2",
+		"customer_count" : 94,
+		"total_cashback_received" : 107219,
+		"gross_revenue_generated" : 540598.1499999998,
+		"total_profit_generated" : 433379.14999999997,
+		"cluster_distribution_rank" : 4
+	},
+	{
+		"final_cluster_id" : 4,
+		"city_tier" : "T2",
+		"customer_count" : 89,
+		"total_cashback_received" : 122316,
+		"gross_revenue_generated" : 532597.5500000004,
+		"total_profit_generated" : 410281.5500000005,
+		"cluster_distribution_rank" : 5
+	},
+	{
+		"final_cluster_id" : 4,
+		"city_tier" : "T1",
+		"customer_count" : 85,
+		"total_cashback_received" : 117196,
+		"gross_revenue_generated" : 515936.7999999996,
+		"total_profit_generated" : 398740.79999999976,
+		"cluster_distribution_rank" : 4
+	},
+	{
+		"final_cluster_id" : 0,
+		"city_tier" : "T1",
+		"customer_count" : 85,
+		"total_cashback_received" : 97099,
+		"gross_revenue_generated" : 488251.6199999998,
+		"total_profit_generated" : 391152.6200000001,
+		"cluster_distribution_rank" : 4
+	},
+	{
+		"final_cluster_id" : 4,
+		"city_tier" : "T3",
+		"customer_count" : 64,
+		"total_cashback_received" : 86466,
+		"gross_revenue_generated" : 388442.23000000016,
+		"total_profit_generated" : 301976.23000000004,
+		"cluster_distribution_rank" : 4
+	},
+	{
+		"final_cluster_id" : 3,
+		"city_tier" : "T3",
+		"customer_count" : 75,
+		"total_cashback_received" : 68252,
+		"gross_revenue_generated" : 346279.84000000014,
+		"total_profit_generated" : 278027.8399999998,
+		"cluster_distribution_rank" : 3
+	},
+	{
+		"final_cluster_id" : 0,
+		"city_tier" : "T3",
+		"customer_count" : 52,
+		"total_cashback_received" : 60992,
+		"gross_revenue_generated" : 301206.75000000006,
+		"total_profit_generated" : 240214.75000000003,
+		"cluster_distribution_rank" : 5
+	},
+	{
+		"final_cluster_id" : 1,
+		"city_tier" : "",
+		"customer_count" : 28,
+		"total_cashback_received" : 16760,
+		"gross_revenue_generated" : 197690.11000000004,
+		"total_profit_generated" : 180930.11000000007,
+		"cluster_distribution_rank" : 1
+	},
+	{
+		"final_cluster_id" : 2,
+		"city_tier" : "",
+		"customer_count" : 27,
+		"total_cashback_received" : 16591,
+		"gross_revenue_generated" : 122763.98000000001,
+		"total_profit_generated" : 106172.98000000001,
+		"cluster_distribution_rank" : 2
+	},
+	{
+		"final_cluster_id" : 4,
+		"city_tier" : "",
+		"customer_count" : 14,
+		"total_cashback_received" : 19817,
+		"gross_revenue_generated" : 82956.23999999999,
+		"total_profit_generated" : 63139.23999999999,
+		"cluster_distribution_rank" : 4
+	},
+	{
+		"final_cluster_id" : 3,
+		"city_tier" : "",
+		"customer_count" : 16,
+		"total_cashback_received" : 13257,
+		"gross_revenue_generated" : 71559.03999999996,
+		"total_profit_generated" : 58302.03999999999,
+		"cluster_distribution_rank" : 3
+	},
+	{
+		"final_cluster_id" : 0,
+		"city_tier" : "",
+		"customer_count" : 11,
+		"total_cashback_received" : 12504,
+		"gross_revenue_generated" : 65152.209999999985,
+		"total_profit_generated" : 52648.20999999999,
+		"cluster_distribution_rank" : 5
+	},
+	{
+		"final_cluster_id" : 5,
+		"city_tier" : "T1",
+		"customer_count" : 6,
+		"total_cashback_received" : 2866,
+		"gross_revenue_generated" : 41086.02000000001,
+		"total_profit_generated" : 38220.020000000004,
+		"cluster_distribution_rank" : 6
+	},
+	{
+		"final_cluster_id" : 5,
+		"city_tier" : "T3",
+		"customer_count" : 2,
+		"total_cashback_received" : 1043,
+		"gross_revenue_generated" : 15872.090000000002,
+		"total_profit_generated" : 14829.090000000002,
+		"cluster_distribution_rank" : 6
+	},
+	{
+		"final_cluster_id" : 5,
+		"city_tier" : "",
+		"customer_count" : 1,
+		"total_cashback_received" : 570,
+		"gross_revenue_generated" : 6360.37,
+		"total_profit_generated" : 5790.37,
+		"cluster_distribution_rank" : 6
+	}
+]

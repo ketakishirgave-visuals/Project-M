@@ -1,0 +1,15 @@
+segment_id,persona_name,policy,expected_revenue,expected_cashback_cost,expected_margin,margin_change_vs_baseline,expected_mer
+0,Expiry-Driven Converters,Reduce -20%,1328553.76,480697.29,847856.47,-60992.09,1.7638053959647053
+0,Expiry-Driven Converters,Reduce -10%,1375609.9,540784.45,834825.46,-74023.1,1.543730513325522
+0,Expiry-Driven Converters,Maintain,1509720.18,600871.61,908848.57,0.01,1.512550359967914
+1,Organic High-Intent Buyers,Reduce -20%,3771667.71,545218.19,3226449.51,42399.37,5.917721678705327
+1,Organic High-Intent Buyers,Reduce -10%,3818905.44,613370.47,3205534.97,21484.83,5.226099313671897
+1,Organic High-Intent Buyers,Maintain,3865572.88,681522.74,3184050.14,-0.0,4.671964636132317
+2,Wallet Accumulators,Maintain,3214213.97,846580.19,2367633.78,0.01,2.7967034995231823
+2,Wallet Accumulators,Increase +10%,3705092.22,931238.21,2773854.01,406220.24,2.9786728955037547
+2,Wallet Accumulators,Increase +20%,4114193.88,1015896.23,3098297.65,730663.88,3.0498170661580617
+3,Passive Expiry Converters,Exclude,2150197.19,0.0,2150197.19,765381.05,inf
+4,Aggressive Expiry Converters,Reduce -20%,1529931.08,599203.07,930728.0,16763.28,1.5532764211195498
+4,Aggressive Expiry Converters,Reduce -10%,1568893.84,674103.46,894790.39,-19174.33,1.3273784314297465
+4,Aggressive Expiry Converters,Maintain,1662968.56,749003.84,913964.72,0.0,1.2202403661909131
+5,Premium Full-Price Loyalists,Exclude,48633.12,0.0,48633.12,6424.66,inf
