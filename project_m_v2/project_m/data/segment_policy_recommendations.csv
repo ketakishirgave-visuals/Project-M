@@ -1,7 +1,0 @@
-segment_id,persona_name,final_recommendation,expected_margin_improvement,improvement_percentage
-0,Expiry-Driven Converters,Maintain,0.01,0.0
-1,Organic High-Intent Buyers,Reduce -20%,42399.37,1.33
-2,Wallet Accumulators,Increase +20%,730663.88,30.86
-3,Passive Expiry Converters,Exclude,765381.05,55.27
-4,Aggressive Expiry Converters,Reduce -20%,16763.28,1.83
-5,Premium Full-Price Loyalists,Exclude,6424.66,15.22

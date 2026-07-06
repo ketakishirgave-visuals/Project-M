@@ -1,2 +1,0 @@
-cluster_a,cluster_b,cohens_d_j_curve_std,cohens_d_scratch_velocity,cohens_d_time_to_expiry_at_conversion,cohens_d_accumulation_slope,max_cohens_d,merge_eligible,decision
-0,1,1.5496,3.6806,3.4403,0.0703,3.6806,False,RETAIN SEPARATE (max Cohen's d=3.681 ≥ 0.55)
