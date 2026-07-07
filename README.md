@@ -225,6 +225,6 @@ This project is provided as-is for portfolio and research purposes.
 
 -- 
 **Author:** Ketaki Shirgave
+
 **Purpose:** Portfolio case study demonstrating end-to-end behavioral analytics, causal inference, and business strategy recommendation.
 
----
