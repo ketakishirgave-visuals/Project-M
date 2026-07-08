@@ -1,4 +1,5 @@
 import streamlit as st
+import os 
 from ui_helpers import question_answer, receipts_expander, how_this_was_built, sim_footer, continue_to, before_after, evidence_used
 
 
@@ -54,7 +55,6 @@ CLEANING_ISSUES = [
     },
 ]
 
-import os 
 def render(data, skim_mode):
     st.markdown("## Chapter 5 — Cleaning the Evidence")
 
@@ -87,47 +87,20 @@ def render(data, skim_mode):
         "- **The behavioral overlap between archetypes** — customers whose behavior sits between two profiles are a real feature of the population, not a labeling mistake, and removing overlapping behavioural observations would artificially increase cluster separability while reducing the realism of the simulated customer population."
     )
 
-    import os
-
     if not skim_mode:
-           st.markdown("#### Deep Dive: Retaining Structural Integrity")
+        st.markdown("#### Deep Dive: Retaining Structural Integrity")
         
-        # 1. Locate where this chapter file is sitting (project_m/chapters/)
-    current_dir = os.path.dirname(__file__)
-
-        # 2. Try the most likely paths on GitHub relative to this script
-    possible_paths = [
-            os.path.abspath(os.path.join(current_dir, "..", "outputs", "operational_outlier_matrix.png")), # Next to chapters
-            os.path.abspath(os.path.join(current_dir, "..", "..", "outputs", "operational_outlier_matrix.png")), # One level higher
-            "outputs/operational_outlier_matrix.png" # From root
-        ]
+        # Pull image directly from raw GitHub URL to prevent server path errors
+        image_url = "https://github.com/ketakishirgave-visuals/Project-M/blob/main/operational_outlier_matrix.png?raw=true"
         
-        # Fallback to the first path, but grab an existing one if found
-    image_path = possible_paths[0]
-    for p in possible_paths:
-            if os.path.exists(p):
-                image_path = p
-                break
-
-        # 3. Display safely
-    try:
-            st.image(
-                image_path, 
-                caption="Visualizing Outliers: Structural Nulls, Expirations, and Archetype Overlap"
-            )
-    except Exception as e:
-            st.error("Could not render the image directly via the absolute path framework.")
-            st.info(f"Attempted path: {image_path}")
-
-        # 4. Display it via Streamlit
-    st.image(
-            image_path, 
+        st.image(
+            image_url, 
             caption="Visualizing Outliers: Structural Nulls, Expirations, and Archetype Overlap"
         )
                 
-    col1, col2, col3 = st.columns(3)
-        
-    with col1:
+        col1, col2, col3 = st.columns(3)
+            
+        with col1:
             st.markdown("#### 🕒 1. Engagement: The Late-Window Surge")
             st.info(
                 "**What the chart shows:**\n"
@@ -138,8 +111,8 @@ def render(data, skim_mode):
                 "**📊 Impact:**\n"
                 "Highly motivated traffic that contributes disproportionately to late-cycle platform engagement."
             )
-            
-    with col2:
+                
+        with col2:
             st.markdown("#### 🎁 2. Incentive: The Promotional Ceiling")
             st.info(
                 "**What the chart shows:**\n"
@@ -150,8 +123,8 @@ def render(data, skim_mode):
                 "**📊 Impact:**\n"
                 "The 'outlier' line proves cost-containment rules successfully stop runaway promotional liability."
             )
-            
-    with col3:
+                
+        with col3:
             st.markdown("#### 🛒 3. Basket Economics: Premium Checkouts")
             st.info(
                 "**What the chart shows:**\n"
@@ -162,61 +135,60 @@ def render(data, skim_mode):
                 "**📊 Impact:**\n"
                 "Our highest-margin transactions. Proves the platform facilitates premium checkout bills without artificial inflation."
             )
+
     st.write("---") # Visual separator before moving to the transformations
-
-
 
     st.markdown("#### Before → Python → After")
     st.caption("A visual walkthrough of how three representative issues moved through the cleaning script.")
 
     before_after(
-            title="1. City tier formatting",
-            before_lines=["T1", "Tier 1", "tier_1", "TIER 1", "NaN"],
-            after_lines=["T1", "T1", "T1", "T1", "T1  (mode-imputed)"],
-            transform="city_map = {variant: canonical}; df['city_tier'].map(city_map).fillna(mode)",
-            caption="97 rows resolved to one of 3 canonical tiers.",
-        )
+        title="1. City tier formatting",
+        before_lines=["T1", "Tier 1", "tier_1", "TIER 1", "NaN"],
+        after_lines=["T1", "T1", "T1", "T1", "T1  (mode-imputed)"],
+        transform="city_map = {variant: canonical}; df['city_tier'].map(city_map).fillna(mode)",
+        caption="97 rows resolved to one of 3 canonical tiers.",
+    )
     st.write("")
     before_after(
-            title="2. Ghost sessions (impossible zero-session rows)",
-            before_lines=["sessions=0, session_dur_min=14.2", "sessions=0, session_dur_min=8.6"],
-            after_lines=["sessions=2, session_dur_min=14.2", "sessions=1, session_dur_min=8.6"],
-            transform="sessions = max(1, round(session_dur_min / median_minutes_per_session))",
-            caption="3,880 rows corrected using the median minutes-per-session ratio from valid rows.",
-        )
+        title="2. Ghost sessions (impossible zero-session rows)",
+        before_lines=["sessions=0, session_dur_min=14.2", "sessions=0, session_dur_min=8.6"],
+        after_lines=["sessions=2, session_dur_min=14.2", "sessions=1, session_dur_min=8.6"],
+        transform="sessions = max(1, round(session_dur_min / median_minutes_per_session))",
+        caption="3,880 rows corrected using the median minutes-per-session ratio from valid rows.",
+    )
     st.write("")
     before_after(
-            title="3. Cashback exceeding order value",
-            before_lines=["order_value_rs=420, cashback_applied=460"],
-            after_lines=["order_value_rs=420, cashback_applied=420, net_revenue_rs=0"],
-            transform="cashback_applied = min(cashback_applied, order_value_rs); net_revenue_rs recomputed",
-            caption="Guards against an economically impossible negative net revenue downstream.",
-        )
+        title="3. Cashback exceeding order value",
+        before_lines=["order_value_rs=420, cashback_applied=460"],
+        after_lines=["order_value_rs=420, cashback_applied=420, net_revenue_rs=0"],
+        transform="cashback_applied = min(cashback_applied, order_value_rs); net_revenue_rs recomputed",
+        caption="Guards against an economically impossible negative net revenue downstream.",
+    )
     st.write("")
 
     st.markdown("#### Issue-by-issue breakdown")
     st.markdown("_Click any issue to expand the fix detail._")
     for issue in CLEANING_ISSUES:
-            with st.expander(f"**{issue['table']}** — {issue['title']} · _{issue['result']}_"):
-                st.markdown(f"**Problem:** {issue['problem']}")
-                st.markdown(f"**Fix applied:** {issue['fix']}")
-                st.success(f"Result: {issue['result']}")
+        with st.expander(f"**{issue['table']}** — {issue['title']} · _{issue['result']}_"):
+            st.markdown(f"**Problem:** {issue['problem']}")
+            st.markdown(f"**Fix applied:** {issue['fix']}")
+            st.success(f"Result: {issue['result']}")
 
     def receipts_output():
-            st.markdown("""
+        st.markdown("""
 | Table | Raw rows | Clean rows | Δ |
 |---|---|---|---|
 | customers.csv | 2,000 | 2,000 | 0 |
 | daily_sessions.csv | 112,000 | 112,000 | 0 |
 | scratch_cards.csv | 112,000 | 112,000 | 0 |
 | transactions.csv | 14,583 | 14,583 | 0 |
-            """)
-            st.caption("Row counts stable — cleaning fixed quality issues, not row-level drops (except 0 negative-revenue rows).")
+        """)
+        st.caption("Row counts stable — cleaning fixed quality issues, not row-level drops (except 0 negative-revenue rows).")
 
     receipts_expander(
-            label_suffix="full cleaning audit log",
-            question="What was the before/after state of each table across all cleaning operations?",
-            computation="""# From: Data_Cleaning_Script.py — Block 2
+        label_suffix="full cleaning audit log",
+        question="What was the before/after state of each table across all cleaning operations?",
+        computation="""# From: Data_Cleaning_Script.py — Block 2
 
 # Ghost session fix — sessions=0 but duration>0 is physically impossible
 ghost = (df_sess['sessions'] == 0) & (df_sess['session_dur_min'] > 0)
@@ -243,12 +215,12 @@ if api_timeout_mask.sum() > 0:
     )
     df_sc['card_amount_rs'].fillna(df_sc['card_amount_rs'].median(), inplace=True)
 # Note: scratched=0 nulls are intentionally NOT touched — card was never issued. Full audit written to: outputs/cleaning_audit.md""",
-            output_md=receipts_output,
-            insight="All four tables cleaned with documented before/after states. The audit markdown is the permanent record — every transformation is traceable.",
-        )
+        output_md=receipts_output,
+        insight="All four tables cleaned with documented before/after states. The audit markdown is the permanent record — every transformation is traceable.",
+    )
 
     def how_built():
-            st.markdown("""
+        st.markdown("""
 **Null taxonomy approach:**  
 Instead of a blanket `fillna()`, each null was classified by its root cause before treatment:
 - *Structural nulls* (card never issued — correctly sparse) → preserved
@@ -260,7 +232,7 @@ Instead of a blanket `fillna()`, each null was classified by its root cause befo
 minutes-per-session ratio of valid rows. `max(1, round(...))` ensures at least one session.
 
 **Code reference:** `Data_Cleaning_Script.py` — Block 2
-            """)
+        """)
 
     how_this_was_built("data cleaning taxonomy", how_built)
 
