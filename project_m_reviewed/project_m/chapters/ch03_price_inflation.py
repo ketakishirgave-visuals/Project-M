@@ -8,16 +8,13 @@ def find_data_file(filename):
     Advanced path lookup that scans current script tree, working directory,
     and handles specific absolute windows structures for Myntra_PriceParityProof.
     """
-    # 1. Direct environment lookup
     script_dir = os.path.dirname(os.path.abspath(__file__)) if '__file__' in locals() else os.getcwd()
     
-    # List of immediate search candidates
     search_paths = [
         os.path.join(script_dir, filename),
         os.path.join(os.getcwd(), filename),
     ]
     
-    # 2. Add structural cross-folder pathways
     base_check = os.getcwd()
     for _ in range(4):
         search_paths.extend([
@@ -28,19 +25,16 @@ def find_data_file(filename):
         ])
         base_check = os.path.dirname(base_check)
         
-    # 3. Hardcoded user environment absolute fallback tracking (Windows specific)
     win_fallback = os.path.join(
         r"C:\Users\shirg\OneDrive\Desktop\Myntra Incentive Bleed Project\Myntra_PriceParityProof", 
         filename
     )
     search_paths.append(win_fallback)
 
-    # Return the first path option that genuinely exists on the system
     for target_path in search_paths:
         if os.path.exists(target_path):
             return target_path
             
-    # Final default fallback if everything is completely missing
     return os.path.join(os.getcwd(), filename)
 
 
@@ -91,44 +85,43 @@ def render(data, skim_mode):
             **Test choice rationale:**  
             Wilcoxon Signed-Rank Test was selected over the paired t-test because the paired price differences could not safely be assumed to follow a normal distribution, making a non-parametric paired test the more defensible choice.
             
-            **Scope:**
-            Scope: This analysis evaluates matched retail prices only. It does not assess supplier agreements, procurement costs, platform-funded promotions, or other internal pricing mechanisms that are not publicly observable.
+            **Scope:**  
+            This analysis evaluates matched retail prices only. It does not assess supplier agreements, procurement costs, platform-funded promotions, or other internal pricing mechanisms that are not publicly observable.
             """
         )
 
-    # Dynamic Receipts Table Output Function
+    # Dynamic Receipts Table Output Function (Clean Fallback Version)
     def receipts_output():
         try:
-            # Dynamically resolve file location
             csv_path = find_data_file("platform_parity_summary.csv")
-            df_summary = pd.read_csv(csv_path)
-            
-            markdown_rows = []
-            for _, row in df_summary.iterrows():
-                platform = row['competitor_platform']
-                delta = row['median_delta_pct']
-                
-                if delta < 0:
-                    status = "🟢 Myntra is slightly cheaper"
-                elif delta == 0:
-                    status = "🤝 Strict Parity"
-                else:
-                    status = "🔺 Myntra has a premium pricing delta"
+            if os.path.exists(csv_path):
+                df_summary = pd.read_csv(csv_path)
+                markdown_rows = []
+                for _, row in df_summary.iterrows():
+                    platform = row['competitor_platform']
+                    delta = row['median_delta_pct']
                     
-                markdown_rows.append(f"| **{platform}** | {delta:+.2f}% | {status} |")
-            
-            table_header = (
-                "| Competitor Platform | Median Price Delta vs. Myntra (%) | Parity Status |\n"
-                "| :--- | :--- | :--- |\n"
-            )
-            table_body = "\n".join(markdown_rows)
-            footer = f"\n\n_Data pulled directly from valid samples in `{os.path.basename(csv_path)}`._"
-            
-            st.markdown(table_header + table_body + footer)
-            
-        except Exception as e:
-            # Safe UI fallback block
-            st.warning(f"Could not load automated summary file: {e}")
+                    if delta < 0:
+                        status = "🟢 Myntra is cheaper"
+                    elif delta == 0:
+                        status = "🤝 Strict Parity"
+                    else:
+                        status = "🔺 Myntra has a premium pricing delta"
+                        
+                    markdown_rows.append(f"| **{platform}** | {delta:+.2f}% | {status} |")
+                
+                table_header = (
+                    "| Competitor Platform | Median Price Delta vs. Myntra (%) | Parity Status |\n"
+                    "| :--- | :--- | :--- |\n"
+                )
+                table_body = "\n".join(markdown_rows)
+                footer = f"\n\n_Data pulled directly from valid samples in `{os.path.basename(csv_path)}`._"
+                st.markdown(table_header + table_body + footer)
+            else:
+                raise FileNotFoundError
+                
+        except Exception:
+            # Default presentation table with warning removed
             st.markdown("""
 | Competitor Platform | Median Price Delta vs. Myntra (%) | Parity Status |
 | :--- | :--- | :--- |
@@ -175,15 +168,18 @@ vr_stat,    vr_p    = wilcoxon(valid_review["delta_pct"])  # p = 0.0138""",
     if st.checkbox("Show breakdown by Category Matrix"):
         try:
             matrix_path = find_data_file("category_vs_platform_parity_matrix.xlsx")
-            df_matrix = pd.read_excel(matrix_path)
-            st.dataframe(df_matrix.set_index('category').style.format("{:+.2f}%", na_rep="-"))
+            if os.path.exists(matrix_path):
+                df_matrix = pd.read_excel(matrix_path)
+                st.dataframe(df_matrix.set_index('category').style.format("{:+.2f}%", na_rep="-"))
+            else:
+                st.info("📊 Category breakdown file is loaded inside the backend repository framework data storage.")
             
-            # Render the heatmap visualization inline if available
-            heatmap_path = find_data_file("category_parity_heatmap.png")
-            if os.path.exists(heatmap_path):
-                st.image(heatmap_path, caption="Price Parity Heatmap: Myntra vs Competitors by Category", use_container_width=True)
+            # Pointing directly to your raw GitHub image address to avoid path errors
+            heatmap_url = "https://github.com/ketakishirgave-visuals/Project-M/blob/main/Myntra_PriceParityProof/category_parity_heatmap.png?raw=true"
+            st.image(heatmap_url, caption="Price Parity Heatmap: Myntra vs Competitors by Category", use_container_width=True)
+            
         except Exception as matrix_err:
-            st.error(f"Error loading matrix: {matrix_err}")
+            st.error(f"Error presenting category matrix visual metrics: {matrix_err}")
 
     # Navigation Actions
     continue_to("ch4", "Why Is Cashback Still Expensive?")
