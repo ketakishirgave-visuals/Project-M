@@ -1,0 +1,194 @@
+{
+    "production_segment_0": {
+        "layer_1_statistical_signature": [
+            "j_curve_ratio HIGH",
+            "expired_cashback_fraction HIGH",
+            "time_to_expiry_at_conversion LOW",
+            "cashback_intensity HIGH",
+            "late_session_intensity HIGH",
+            "session_density HIGH"
+        ],
+        "layer_2_behavioral_translation": [
+            "Highly active, compressed session frequencies",
+            "Late-stage window conversion intensity",
+            "Strong dependence on rewards",
+            "High casual disregard of active rewards",
+            "Converts close to expiry under stress",
+            "Night/end-of-cycle platform pusher"
+        ],
+        "layer_3_archetype": "Expiry-Driven Converters",
+        "layer_4_final_persona_name": "Expiry-Driven Converters",
+        "evidence_supporting_name": [
+            "j_curve_ratio (+0.71\u03c3)",
+            "expired_cashback_fraction (+1.40\u03c3)",
+            "time_to_expiry_at_conversion (-0.69\u03c3)",
+            "cashback_intensity (+0.72\u03c3)",
+            "late_session_intensity (+0.85\u03c3)",
+            "session_density (+0.52\u03c3)"
+        ],
+        "segment_volumetric_size": "242 users (12.10%)",
+        "statistical_validation_status": "Stable"
+    },
+    "production_segment_1": {
+        "layer_1_statistical_signature": [
+            "j_curve_ratio LOW",
+            "j_curve_std LOW",
+            "scratch_velocity HIGH",
+            "time_to_expiry_at_conversion HIGH",
+            "cashback_intensity LOW",
+            "late_session_intensity LOW",
+            "spend_per_session HIGH",
+            "conversion_rate HIGH"
+        ],
+        "layer_2_behavioral_translation": [
+            "Organic purchase independent of discount hooks",
+            "Consistent, stable platform logging trends",
+            "High basket value ticket intensity",
+            "Early-window transaction habits",
+            "Discovers and unlocks rewards early",
+            "High session-to-purchase execution efficiency",
+            "Conventional peak daylight browser profiles",
+            "Converts early ahead of expiration windows"
+        ],
+        "layer_3_archetype": "Organic High-Intent Buyers",
+        "layer_4_final_persona_name": "Organic High-Intent Buyers",
+        "evidence_supporting_name": [
+            "j_curve_ratio (-0.92\u03c3)",
+            "j_curve_std (-0.58\u03c3)",
+            "scratch_velocity (+1.93\u03c3)",
+            "time_to_expiry_at_conversion (+1.60\u03c3)",
+            "cashback_intensity (-1.11\u03c3)",
+            "late_session_intensity (-0.80\u03c3)",
+            "spend_per_session (+1.24\u03c3)",
+            "conversion_rate (+0.88\u03c3)"
+        ],
+        "segment_volumetric_size": "615 users (30.75%)",
+        "statistical_validation_status": "Stable"
+    },
+    "production_segment_2": {
+        "layer_1_statistical_signature": [
+            "wallet_balance_slope HIGH"
+        ],
+        "layer_2_behavioral_translation": [
+            "Accumulates wallet balances faster than spending"
+        ],
+        "layer_3_archetype": "Wallet Accumulators",
+        "layer_4_final_persona_name": "Wallet Accumulators",
+        "evidence_supporting_name": [
+            "wallet_balance_slope (+1.25\u03c3)"
+        ],
+        "segment_volumetric_size": "516 users (25.80%)",
+        "statistical_validation_status": "Stable"
+    },
+    "production_segment_3": {
+        "layer_1_statistical_signature": [
+            "j_curve_ratio HIGH",
+            "expired_cashback_fraction HIGH",
+            "time_to_expiry_at_conversion LOW",
+            "cashback_intensity HIGH",
+            "wallet_balance_slope HIGH",
+            "late_session_intensity HIGH",
+            "spend_per_session LOW",
+            "conversion_rate LOW"
+        ],
+        "layer_2_behavioral_translation": [
+            "Late-stage window conversion intensity",
+            "Strong dependence on rewards",
+            "High casual disregard of active rewards",
+            "Accumulates wallet balances faster than spending",
+            "Converts close to expiry under stress",
+            "Low-value micro-browsing basket sizes",
+            "Browses app heavily with low conversion rates",
+            "Night/end-of-cycle platform pusher"
+        ],
+        "layer_3_archetype": "Passive Expiry Converters",
+        "layer_4_final_persona_name": "Passive Expiry Converters",
+        "evidence_supporting_name": [
+            "j_curve_ratio (+0.71\u03c3)",
+            "expired_cashback_fraction (+1.30\u03c3)",
+            "time_to_expiry_at_conversion (-0.69\u03c3)",
+            "cashback_intensity (+0.72\u03c3)",
+            "wallet_balance_slope (+1.00\u03c3)",
+            "late_session_intensity (+0.83\u03c3)",
+            "spend_per_session (-0.64\u03c3)",
+            "conversion_rate (-0.89\u03c3)"
+        ],
+        "segment_volumetric_size": "366 users (18.30%)",
+        "statistical_validation_status": "Stable"
+    },
+    "production_segment_4": {
+        "layer_1_statistical_signature": [
+            "j_curve_ratio HIGH",
+            "j_curve_std HIGH",
+            "expired_cashback_fraction HIGH",
+            "time_to_expiry_at_conversion LOW",
+            "cashback_intensity HIGH",
+            "late_session_intensity HIGH",
+            "session_density HIGH"
+        ],
+        "layer_2_behavioral_translation": [
+            "Highly active, compressed session frequencies",
+            "Late-stage window conversion intensity",
+            "Strong dependence on rewards",
+            "High casual disregard of active rewards",
+            "Converts close to expiry under stress",
+            "Night/end-of-cycle platform pusher",
+            "Highly variable, unpredictable engagement bursts"
+        ],
+        "layer_3_archetype": "Aggressive Expiry Converters",
+        "layer_4_final_persona_name": "Aggressive Expiry Converters",
+        "evidence_supporting_name": [
+            "j_curve_ratio (+1.44\u03c3)",
+            "j_curve_std (+0.63\u03c3)",
+            "expired_cashback_fraction (+1.80\u03c3)",
+            "time_to_expiry_at_conversion (-1.14\u03c3)",
+            "cashback_intensity (+1.22\u03c3)",
+            "late_session_intensity (+1.74\u03c3)",
+            "session_density (+1.31\u03c3)"
+        ],
+        "segment_volumetric_size": "252 users (12.60%)",
+        "statistical_validation_status": "Stable"
+    },
+    "production_segment_5": {
+        "layer_1_statistical_signature": [
+            "j_curve_ratio LOW",
+            "j_curve_std LOW",
+            "scratch_velocity HIGH",
+            "time_to_expiry_at_conversion HIGH",
+            "cashback_intensity LOW",
+            "full_price_rate HIGH",
+            "late_session_intensity LOW",
+            "spend_per_session HIGH",
+            "conversion_rate HIGH",
+            "session_density LOW"
+        ],
+        "layer_2_behavioral_translation": [
+            "Organic purchase independent of discount hooks",
+            "Consistent, stable platform logging trends",
+            "High basket value ticket intensity",
+            "Sporadic, spread-out logging interactions",
+            "Early-window transaction habits",
+            "High organic full-price contribution margins",
+            "Discovers and unlocks rewards early",
+            "High session-to-purchase execution efficiency",
+            "Conventional peak daylight browser profiles",
+            "Converts early ahead of expiration windows"
+        ],
+        "layer_3_archetype": "Premium Full-Price Loyalists",
+        "layer_4_final_persona_name": "Premium Full-Price Loyalists",
+        "evidence_supporting_name": [
+            "j_curve_ratio (-0.95\u03c3)",
+            "j_curve_std (-0.54\u03c3)",
+            "scratch_velocity (+2.09\u03c3)",
+            "time_to_expiry_at_conversion (+1.60\u03c3)",
+            "cashback_intensity (-1.35\u03c3)",
+            "full_price_rate (+14.11\u03c3)",
+            "late_session_intensity (-0.77\u03c3)",
+            "spend_per_session (+1.35\u03c3)",
+            "conversion_rate (+0.99\u03c3)",
+            "session_density (-0.63\u03c3)"
+        ],
+        "segment_volumetric_size": "9 users (0.45%)",
+        "statistical_validation_status": "Micro-Segment / Statistical Outlier Pool"
+    }
+}

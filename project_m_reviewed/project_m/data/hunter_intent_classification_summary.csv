@@ -1,0 +1,4 @@
+user_type,user_count,total_revenue_rs,total_cashback_cost_rs,net_margin_rs,avg_expiry_dependency,avg_wallet_monitoring_frequency
+Normal User,8470,14952868.0,1454034.0,13498834.0,0.2075,1.04
+Active Hunter,2438,8585143.0,793614.0,7791529.0,0.777,8.05
+Passive Expirer,1472,2589058.0,491469.0,2097589.0,0.1958,1.03
