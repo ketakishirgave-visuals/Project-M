@@ -77,40 +77,6 @@ Executive Recommendations (Ch. 12)
 
 ---
 
-## 📁 Directory Structure
-
-```
-project_m/
-├── app.py                              # Streamlit entrypoint
-├── data_loader.py                      # Session-state caching for pipeline outputs
-├── ui_helpers.py                       # Reusable card, badge, and visualization primitives
-├── requirements.txt
-├── data/                               # All pipeline outputs (read-only, 11 CSV/JSON files)
-│   ├── segment_strategy_matrix.csv
-│   ├── cashback_causality_audit.csv
-│   ├── cashback_policy_optimization_matrix.csv
-│   ├── segment_policy_recommendations.csv
-│   ├── cluster_profiles.json
-│   └── [7 more files: stability, confidence, diagnostics, audit, executive report]
-└── chapters/                           # 12-chapter narrative investigation
-    ├── ch00_landing.py                 # Cold open — framing the question
-    ├── ch01_experience.py              # How the cashback mechanic works
-    ├── ch02_is_it_free.py              # Cost framing — customer acquisition lens
-    ├── ch03_price_inflation.py         # Ruling out price-adjustment confounds
-    ├── ch04_why_expensive.py           # Blanket vs. targeted policy trade-offs
-    ├── ch05_cleaning.py                # Data integrity audit with before/after examples
-    ├── ch06_features.py                # Behavioral feature extraction rationale
-    ├── ch07_segmentation.py            # Six personas and their profiles
-    ├── ch07b_hunter_intent.py          # Cross-segment gaming-intent classification
-    ├── ch08_optimization.py            # Elasticity engine + live simulator
-    ├── ch09_confidence.py              # Monte Carlo confidence bands and ranges
-    ├── ch10_recommendation.py          # The decision memo and deployment limitations
-    ├── ch11_sql_index.py               # 11 full SQL investigations with Best/Worst/Gap outputs
-    └── ch12_executive_recommendations.py # 8 actionable recommendations, each sourced
-```
-
----
-
 ## 🚀 Quick Start
 
 ### Prerequisites
@@ -121,10 +87,10 @@ project_m/
 ### Run the Investigation
 
 ```bash
-streamlit run app.py
+https://project-m-ketakishirgave.streamlit.app/
 ```
 
-The Streamlit app will open in your browser at ``. Navigate non-linearly through all 12 chapters using the floating sidebar rail.
+The Streamlit app will open in your browser at `https://project-m-ketakishirgave.streamlit.app/`. Navigate non-linearly through all 12 chapters using the floating sidebar rail.
 
 ---
 
