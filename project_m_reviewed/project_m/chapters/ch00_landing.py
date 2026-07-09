@@ -58,7 +58,7 @@ def render(data, skim_mode):
             st.rerun()
     with b2:
         if st.button("Jump straight to the recommendation →", use_container_width=True):
-            st.session_state.chapter = "ch10"
+            st.session_state.chapter = "ch12"
             st.rerun()
 
     sim_footer()
